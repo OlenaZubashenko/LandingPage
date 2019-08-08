@@ -186,6 +186,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .content .img-browser {
+  display: flex;
   width: 1230px;
   height: 480px;
   background: url(../../img/browser.png) no-repeat;
@@ -438,6 +439,124 @@ body {
 .footer-wrapper .a:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+@media (max-width: 1230px) {
+  .top .top__wrapper {
+    width: 840px;
+  }
+
+  .advantages {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .advantages .advantages__item {
+    margin: 20px;
+  }
+
+  .content .img-browser {
+    width: 100%;
+    height: 361px;
+    background-size: cover;
+  }
+
+  .purpose-wrapper .purpose {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .mobile {
+    width: 100%;
+  }
+
+  .footer-wrapper .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .top .top__wrapper {
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  .top .top__wrapper .menu {
+    width: 100%;
+    margin-right: 0;
+    font-size: 15px;
+  }
+
+  .top .top__text {
+    width: 375px;
+    line-height: 1;
+    font-size: 20px;
+  }
+  .top .top__text p {
+    display: none;
+  }
+
+  .top .circle-wrapper {
+    margin-top: 100px;
+  }
+
+  .content .text-wrapper {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .content .img-browser {
+    display: none;
+  }
+
+  .purpose-wrapper .purpose {
+    flex-direction: column;
+  }
+  .purpose-wrapper .purpose .left {
+    padding-left: 40px;
+    text-align: center;
+  }
+
+  .projects .text-wrapper {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .projects .btn-list {
+    width: 100%;
+    padding-left: 5px;
+    flex-wrap: wrap;
+  }
+  .projects .btn-list .btn-item {
+    padding: 15px;
+  }
+
+  .numbers-wrapper .num-content {
+    flex-wrap: wrap;
+  }
+
+  .mobile {
+    flex-direction: column;
+  }
+  .mobile .mob-discription {
+    margin: 0;
+    padding-left: 40px;
+  }
+  .bottom-wrapper .bottom {
+    flex-direction: column;
+  }
+  .bottom-wrapper .bottom .partners {
+    margin: 30px 70px;
+  }
+
+  .footer-wrapper .footer {
+    flex-direction: column;
+  }
+  .footer-wrapper .footer .footer__left .faq {
+    margin: 0 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
