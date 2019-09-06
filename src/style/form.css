@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(211, 194, 173);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 40%;
+}
+
+.field {
+padding: 5px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.btn {
+    width: 172px;
+    height: 55px;
+    color: white;
+    background-color: #998675;
+    padding: 16px 36px; 
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+    font-weight: bold;
+    }
+.btn:hover {
+  cursor: pointer;
+  opacity: .8;
+  color: #4a3226;
+  transition: 1s;
+}
+.img {
+ text-align: end;
+}

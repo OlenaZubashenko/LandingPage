@@ -127,7 +127,7 @@ body {
   height: 55px;
   color: white;
   background-color: #998675;
-  padding: 16px 36px;
+  padding: 8px 36px;
   border-radius: 5px;
   font-size: 14px;
   text-transform: uppercase;
@@ -458,11 +458,16 @@ body {
 }
 .footer-wrapper .up {
   display: flex;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #c7b299;
   margin-top: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  opacity: 0.3;
+  border: 2px solid #c7b299;
 }
 .footer-wrapper .up .arrow__up {
   width: 20px;
