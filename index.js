@@ -1,6 +1,6 @@
 
 
-let images = ['./img/banner2.jpg','./img/banner3.jpg','./img/banner4.jpg'];
+let images = ['./img/banner2.jpg','./img/banner3.jpg','./img/banner4.jpg', './img/121.jpg'];
 
 document.getElementsByClassName('next')[0].onclick = () => {
         setImage(1);
