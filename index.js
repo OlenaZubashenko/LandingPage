@@ -31,3 +31,17 @@ $('.count').each(function () {
             }
         });
     });
+
+  let item = document.getElementsByClassName('clicked')[0];
+  item.onclick = function(){
+          item.style.color = 'red';
+  };
+
+let moreImg = document.querySelectorAll('.more')[0];
+let loadMore = document.getElementById('load-more');
+
+loadMore.onclick = function() {
+        moreImg.style.display = 'block';
+        
+};
+

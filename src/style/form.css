@@ -1,16 +1,20 @@
 .form {
-    display: flex;
     width: 300px;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     background-color: rgb(211, 194, 173);
     border-radius: 5px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     display: none;
     position: fixed;
-    top: 10px;
+    top: 20%;
     left: 40%;
+}
+
+.wrapper-name, .wrapper-pass {
+  display: flex;
+  justify-content: space-between;
 }
 
 .field {

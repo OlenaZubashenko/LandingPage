@@ -12,8 +12,6 @@ close.onclick = function() {
     modal.style.display = 'none';
 }
 
-
-
 signIn.onclick = function() {
     modal.style.display = 'none';
 }

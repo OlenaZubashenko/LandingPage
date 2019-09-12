@@ -142,7 +142,7 @@ margin-top: 220px;
   }
 } 
 
-.btn {
+.button {
     width: 172px;
     height: 55px;
     color: white;
@@ -155,7 +155,7 @@ margin-top: 220px;
     margin: 0 auto;
     font-weight: bold;
     }
-.btn:hover {
+.button:hover {
   cursor: pointer;
   opacity: .9;
   color: #4a3226;
@@ -353,6 +353,9 @@ background: #fbfaf8;
     line-height: 20px;
     padding-left: 35px;
   }
+}
+.more {
+  display: none;
 }
 .img-item:hover {
    background: #362f2d;
@@ -619,10 +622,7 @@ opacity: .8;
       .mob-discription {
         margin: 0;
         padding-left: 40px;
-        .discription-list {
-
         }
-      }
     }
     .bottom-wrapper .bottom{
       flex-direction: column;
